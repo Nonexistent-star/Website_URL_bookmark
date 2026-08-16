@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "WebJump 快捷收藏 (web-kz)",
+  "version": "1.0.0",
+  "description": "一键把当前网页收藏到 WebJump 网站快速跳转程序",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "收藏到 WebJump"
+  },
+  "icons": { "128": "icon128.png" },
+  "permissions": ["activeTab", "tabs"],
+  "host_permissions": ["http://127.0.0.1:47811/*"]
+}

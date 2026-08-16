@@ -1,0 +1,23 @@
+{
+  "config": {
+    "theme": {
+      "bg": "#f5f6fa",
+      "side_bg": "#cfe3f7",
+      "side_fg": "#23415e",
+      "head_bg": "#f2d0cb",
+      "head_fg": "#8a3324",
+      "name_bg": "#b8dcec",
+      "name_fg": "#123c55",
+      "url_bg": "#9fd3e8",
+      "url_fg": "#0d3b52",
+      "tag_bg": "#c9ccd4",
+      "tag_fg": "#2f3237",
+      "count_bg": "#6f5b9e",
+      "count_fg": "#ffffff",
+      "open_bg": "#6d8f62",
+      "open_fg": "#ffffff",
+      "accent": "#3f7fbf"
+    },
+    "default_open": "system"
+  }
+}

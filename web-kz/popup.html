@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<style>
+body{width:300px;margin:0;padding:12px;font:13px/1.5 "Microsoft YaHei",sans-serif;color:#222;background:#f5f6fa;}
+h1{font-size:14px;margin:0 0 10px;color:#1f4f8f;border-left:4px solid #3f7fbf;padding-left:8px;}
+label{display:block;margin:8px 0 3px;color:#444;}
+input,select{width:100%;box-sizing:border-box;height:28px;border:1px solid #999;border-radius:3px;padding:0 6px;font-size:13px;}
+button{margin-top:12px;width:100%;height:32px;border:none;border-radius:4px;background:#3f7fbf;color:#fff;font-size:14px;cursor:pointer;}
+button:disabled{background:#9aa4ad;cursor:not-allowed;}
+#msg{margin-top:8px;font-size:12px;color:#8a3324;min-height:16px;}
+.ok{color:#1c6b12 !important;}
+</style>
+</head>
+<body>
+<h1>收藏到 WebJump</h1>
+<label>名称（已自动获取，可修改）</label>
+<input id="name" type="text">
+<label>网址（已自动获取，可修改）</label>
+<input id="url" type="text">
+<label>标签（选已有或输入新标签）</label>
+<input id="tag" type="text" list="tags" placeholder="如：工具">
+<datalist id="tags"></datalist>
+<label>打开方式</label>
+<select id="open">
+  <option value="global">跟随全局设置</option>
+  <option value="system">系统默认浏览器</option>
+  <option value="builtin">内置浏览器(必应)</option>
+  <option value="edge">Edge浏览器</option>
+  <option value="chrome">Chrome浏览器</option>
+  <option value="firefox">Firefox浏览器</option>
+</select>
+<button id="save">添加到 WebJump</button>
+<div id="msg"></div>
+<script src="popup.js"></script>
+</body>
+</html>
