@@ -18,6 +18,7 @@
       "open_fg": "#ffffff",
       "accent": "#3f7fbf"
     },
-    "default_open": "system"
+    "default_open": "system",
+    "log_enable": false
   }
 }
